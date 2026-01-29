@@ -40,7 +40,7 @@ jobs:
       
       - name: Create ClickUp Task
         run: |
-          curl -X POST 'https://api.clickup.com/api/v2/list/901215548903/task' \
+          curl -X POST 'https://api.clickup.com/api/v2/list/901215549963/task' \
             -H 'Authorization: ${{ secrets.CLICKUP_API_TOKEN }}' \
             -H 'Content-Type: application/json' \
             -d '{
